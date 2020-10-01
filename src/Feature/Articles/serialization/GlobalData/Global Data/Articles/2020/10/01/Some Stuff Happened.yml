@@ -1,0 +1,22 @@
+﻿---
+ID: "bcf15d9f-3288-4411-b61b-c288e4d41b2b"
+Parent: "75d3114b-755e-4cb2-a4f5-e55dbe670496"
+Template: "3d43efda-19db-45c0-99fd-6c3e1163c61d"
+Path: /sitecore/content/Global Data/Articles/2020/10/01/Some Stuff Happened
+DB: master
+SharedFields:
+- ID: "a5dae5e5-3b91-47e2-814e-544ba31fde9f"
+  Hint: Category
+  Type: Multilist with Search
+  Value: "{77C049FC-AA62-4D73-900C-55A382574C93}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T160936Z
+    - ID: "f20d6efb-5f06-4634-bb58-53b426531990"
+      Hint: Title
+      Value: Some Stuff Happened

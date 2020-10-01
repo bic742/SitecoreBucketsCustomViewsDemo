@@ -1,0 +1,25 @@
+﻿---
+ID: "1a766976-a17a-44cf-b775-54f84723c02b"
+Parent: "8bd66a4b-1113-4dbf-b340-e25f360850db"
+Template: "4899f713-d32c-4f34-b233-cd131409bbd6"
+Path: "/sitecore/system/Settings/Buckets/Fill Item/Article - Title"
+DB: master
+SharedFields:
+- ID: "7c8db2ce-628b-4754-a2d5-8ace8b2ccb29"
+  Hint: Solr Field Name
+  Value: title
+- ID: "c59d8ed6-23fc-4f1e-8570-26c34a5fbbe9"
+  Hint: Result Template
+  Value: "{3D43EFDA-19DB-45C0-99FD-6C3E1163C61D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T184139Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

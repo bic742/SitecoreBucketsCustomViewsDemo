@@ -1,0 +1,17 @@
+﻿---
+ID: "0c4b8769-246f-45b1-9ecf-6fee06a8c4e3"
+Parent: "eb83aa07-95c5-48ad-9607-62338b0894f6"
+Template: "5837aab0-7e62-4356-8c92-940010237706"
+Path: /sitecore/content/Global Data/Article Categories/Sports
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T160921Z
+    - ID: "f6ae9232-1b10-4f2c-9b55-8a80604e926a"
+      Hint: Title
+      Value: Sports

@@ -1,0 +1,66 @@
+﻿---
+ID: "73408c24-e117-43e2-8e04-8bfcbf45a88a"
+Parent: "3b750f26-520e-4b33-852a-9633c54706be"
+Template: "6c534f05-6b39-4afd-baf1-4cce81b29376"
+Path: /sitecore/system/Settings/Buckets/Views/Article View
+DB: master
+SharedFields:
+- ID: "2edef3fc-7264-443a-b0f4-3a2e3b602882"
+  Hint: Header Template
+  Value: |
+    <table cellspacing='0'>
+           <!-- cellspacing='0' is important, must stay -->
+           <tr>
+              <th>&nbsp;</th>
+              <th>Title</th>
+    		  <th>Author</th>
+              <th>Category</th>
+              <th>Publish Date</th>
+           </tr>
+           <!-- Table Header -->
+- ID: "336cbfab-6d9a-4fea-b78d-d2bf1d4f29d9"
+  Hint: Default
+  Type: Checkbox
+  Value: 1
+- ID: "390576a2-5452-4cae-ab91-116a8892cfd2"
+  Hint: Footer Template
+  Value: |
+    </table>
+        <script>
+           (function($){
+            // remove the other view options
+        	$('#views').children().not('#ArticleView').remove();
+           })(jQuery || $j)
+        </script>
+- ID: "3a13dafa-0e96-4214-8c42-bc114cea529b"
+  Hint: Item Template
+  Value: |
+    <tr onclick="scForm.getParentForm().postRequest('','','','LaunchTypePlaceholder(url=ItemIdPlaceholder)'); return false;">
+              <td>
+        		<img width="16" onerror="this.onerror=null;this.src='../Buckets/images/default.jpg';" height="16" src=" ImagePathPlaceholder?w=16&h=16&db=master" alt="NamePlaceholder" title="NamePlaceholder" />
+        	  </td>
+              <td>TitleDynamicPlaceholder</td>
+    		  <td>AuthorDynamicPlaceholder</td>
+              <td>CategoryFacetDynamicPlaceholder</td>
+              <td>PublishDateDynamicPlaceholder</td>
+           </tr>
+           <!-- Table Row -->
+- ID: "b41248a7-5111-4a19-907d-4e7ee4358069"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+- ID: "bb7ff36d-6368-4117-ab7c-01aeff56bea2"
+  Hint: Name
+  Value: Article View
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T183716Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

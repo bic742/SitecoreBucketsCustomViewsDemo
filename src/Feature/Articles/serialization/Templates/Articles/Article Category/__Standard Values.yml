@@ -1,0 +1,21 @@
+﻿---
+ID: "816a69e5-13d7-4677-a3e3-2fcec240e14f"
+Parent: "5837aab0-7e62-4356-8c92-940010237706"
+Template: "5837aab0-7e62-4356-8c92-940010237706"
+Path: /sitecore/templates/Feature/Articles/Article Category/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T160820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f6ae9232-1b10-4f2c-9b55-8a80604e926a"
+      Hint: Title
+      Value: $name

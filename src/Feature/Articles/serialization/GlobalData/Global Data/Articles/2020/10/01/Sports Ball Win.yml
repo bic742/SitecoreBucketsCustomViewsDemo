@@ -1,0 +1,22 @@
+﻿---
+ID: "869e2b69-7220-4151-a0e1-c7be6efb4edc"
+Parent: "75d3114b-755e-4cb2-a4f5-e55dbe670496"
+Template: "3d43efda-19db-45c0-99fd-6c3e1163c61d"
+Path: /sitecore/content/Global Data/Articles/2020/10/01/Sports Ball Win
+DB: master
+SharedFields:
+- ID: "a5dae5e5-3b91-47e2-814e-544ba31fde9f"
+  Hint: Category
+  Type: Multilist with Search
+  Value: "{0C4B8769-246F-45B1-9ECF-6FEE06A8C4E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T161144Z
+    - ID: "f20d6efb-5f06-4634-bb58-53b426531990"
+      Hint: Title
+      Value: Sports Ball Win
